@@ -32,13 +32,13 @@ class HomePage extends StatelessWidget {
             const Icon(
               Icons.picture_as_pdf_sharp,
               size: 72.0,
-              color: Colors.teal,
+              color: Colors.white,
             ),
             const SizedBox(height: 15.0),
             const Text(
               'Generate Invoice',
               style: TextStyle(
-                color: Colors.teal,
+                color: Colors.white,
                 fontSize: 25.0,
                 fontWeight: FontWeight.w600,
               ),
@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 30.0),
             ElevatedButton(
               style: const ButtonStyle(
-                backgroundColor: MaterialStatePropertyAll(Colors.teal),
+                backgroundColor: MaterialStatePropertyAll(Colors.white),
               ),
               child: const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 60.0, vertical: 8.0),
